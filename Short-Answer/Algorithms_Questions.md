@@ -35,6 +35,21 @@ Suppose that you have an n-story building and plenty of eggs. Suppose also that 
 
 Write out your proposed algorithm in plain English or pseudocode AND give the runtime complexity of your solution.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 To determine where is f floor.Instead of going floor by floor and throwing eggs from each floor everytime to test if it breaks or not, we will do a binary search and go to the middle of the building.
 We will throw one egg from there.If the egg breaks, we will then split in the half the lower part of the building.And we will throw an egg from the middle to see if it breaks.
 Otherwise, we will discard the lower half of the building , and go up to the other half.

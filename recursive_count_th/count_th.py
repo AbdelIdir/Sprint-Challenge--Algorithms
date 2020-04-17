@@ -21,4 +21,4 @@ def count_th(word, string="th"):
                     string)
 
 
-print(count_th("yoyoyhioyoyhioy", "hi"))
+print(count_th("yoyoyhioyoyhioy", "th"))
