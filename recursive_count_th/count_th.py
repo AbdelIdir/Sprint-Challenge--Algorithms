@@ -5,7 +5,7 @@ Your function must utilize recursion. It cannot contain any loops.
 '''
 
 
-def count_th(word, string):
+def count_th(word, string="th"):
     n1 = len(word)
     n2 = len(string)
 
