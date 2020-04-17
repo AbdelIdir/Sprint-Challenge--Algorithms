@@ -16,8 +16,15 @@ The bigger n is, the longest it will run. The smaller n is, the less operations 
 ## Exercise II
 
 
-To determine where is f floor.Instead of going floor by floor and throwing eggs from each floor everytime to test if it breaks or not, we will do a binary search and go to the middle of the building.
-We will throw one egg from there.If the egg breaks, we will then split in the half the lower part of the building.And we will throw an egg from the middle to see if it breaks.
-Otherwise, we will discard the lower half of the building , and go up to the other half.
+To determine where is f floor.Instead of going floor by floor and throwing eggs from each floor everytime to test if it breaks or not,
+ we will do a binary search and go to the middle of the building.
+We will throw one egg from there.
+If the egg breaks, 
+we will then split in the half the lower part of the building.
+And we will throw an egg from the middle to see if it breaks.
+Otherwise, we will discard the lower half of the building , 
+and go up to the other half.
 We will repeat the same process and discard one half, start at the middle everytime, until we succesfully target the floor where the eggs won't break.
 We will then return that floor number.
+
+The runtime complexity of this operation will be O(log n). With n being the number of floors.
